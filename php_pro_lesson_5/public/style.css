@@ -1,0 +1,43 @@
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: red;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.catalog-item {
+    min-height: 200px;
+    min-width: 200px; 
+    margin: 10px; 
+    border: solid grey 1px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-direction: flex-end;
+}
+
+.catalog-item button {
+    align-self: center;
+}
+
+.more {
+    text-decoration: none;
+    margin-top: 30px;
+    align-self: center;
+    border: solid grey 1px;
+    padding: 10px;
+}
+
